@@ -1,0 +1,1006 @@
+{
+  "nav": {
+    "home": "Home",
+    "attendanceFunMeter": "Attendance Fun Meter",
+    "attendance": "Attendance",
+    "funMeter": "Fun Meter",
+    "registerFace": "Register Member",
+    "adminRegisterDb": "List Member",
+    "adminDashboard": "Dashboard",
+    "adminAttendance": "Attendance",
+    "adminAttendanceSummary": "Attendance Summary",
+    "adminSchedule": "Admin Schedule",
+    "adminUsers": "Admin Users",
+    "adminConfig": "Admin Config",
+    "adminAdvertisement": "Manage Ads"
+  },
+  "pages": {
+    "home": {
+      "title": "Face Recognition"
+    },
+    "attendanceFunMeter": {
+      "title": "Attendance Fun Meter"
+    },
+    "attendance": {
+      "title": "Attendance"
+    },
+    "funMeter": {
+      "title": "Fun Meter"
+    },
+    "registerFace": {
+      "title": "Register Member"
+    },
+    "adminRegisterDb": {
+      "title": "List Member"
+    },
+    "adminDashboard": {
+      "title": "Dashboard"
+    },
+    "adminAttendance": {
+      "title": "Attendance"
+    },
+    "adminAttendanceSummary": {
+      "title": "Attendance Summary"
+    },
+    "adminSchedule": {
+      "title": "Schedule"
+    },
+    "adminUsers": {
+      "title": "User Management"
+    },
+    "adminConfig": {
+      "title": "System Configuration"
+    },
+    "adminAdvertisement": {
+      "title": "Manage Advertisements",
+      "subtitle": "Configure advertisements displayed on the Attendance Fun Meter page."
+    }
+  },
+  "adminAds": {
+    "title": "Advertisements",
+    "subtitle": "Configure advertisements displayed on the Attendance Fun Meter page.",
+    "empty": "No advertisement media found.",
+    "view": {
+      "grid": "Grid View",
+      "list": "List View"
+    },
+    "fields": {
+      "show": "Show",
+      "select": "Select ad"
+    },
+    "selectAll": "Select all",
+    "selected": "{count} item selected",
+    "totalItems": "{total} ads",
+    "table": {
+      "preview": "Preview",
+      "fileName": "File Name",
+      "type": "Type",
+      "size": "Size",
+      "order": "Order",
+      "show": "Show",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "createdBy": "Created By",
+      "updatedBy": "Updated By"
+    },
+    "toast": {
+      "saved": "Ad list saved. Attendance page will use this list after refresh.",
+      "saveFailed": "Failed to save ad list.",
+      "imported": "Successfully imported ad media.",
+      "importFailed": "Failed to import file.",
+      "deletedSelected": "Selected ads successfully deleted.",
+      "deleteFailed": "Failed to delete ads.",
+      "importJsonInvalid": "Invalid JSON format.",
+      "importJsonEmpty": "No valid ads in JSON file.",
+      "importJsonSuccess": "{count} ads successfully imported from JSON.",
+      "importJsonFailed": "Failed to import JSON file.",
+      "loading": "Loading ads...",
+      "loadError": "Failed to load ads list: {error}",
+      "loaded": "Successfully loaded {count} ads",
+      "saving": "Saving ads...",
+      "deleting": "Deleting ads...",
+      "importJsonDeprecated": "JSON import not supported. Use Upload button to add new ads.",
+      "titleUpdated": "Ad name updated successfully.",
+      "titleUpdateFailed": "Failed to update ad name.",
+      "updateFailed": "Failed to update ad status.",
+      "invalidFileType": "File must be an image or video",
+      "titleRequired": "Ad name is required",
+      "uploading": "Uploading new file...",
+      "replaced": "Ad successfully replaced",
+      "updated": "Ad successfully updated",
+      "importing": "Importing {count} files..."
+    },
+    "confirm": {
+      "delete": {
+        "title": "Delete Ads",
+        "descSelected": "Are you sure you want to delete {count} selected ads? This action cannot be undone.",
+        "confirm": "Delete",
+        "cancel": "Cancel"
+      }
+    },
+    "pagination": {
+      "info": "Showing {start}-{end} of {total} ads",
+      "first": "First page",
+      "previous": "Previous",
+      "next": "Next",
+      "last": "Last page",
+      "perPage": "Per page:",
+      "all": "All"
+    },
+    "actions": {
+      "resetDefault": "Reset to Default",
+      "save": "Save",
+      "delete": "Delete",
+      "upload": "Upload",
+      "import": "Import",
+      "moveLeft": "Move left",
+      "moveRight": "Move right",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "clickToEdit": "Click to edit name"
+    }
+  },
+  "adminAttendanceSummary": {
+    "title": "Attendance Summary",
+    "subtitle": "Insights across the selected date range.",
+    "filters": {
+      "noRange": "All dates",
+      "quick": {
+        "7d": "7 Days",
+        "30d": "30 Days",
+        "90d": "90 Days",
+        "all": "All dates"
+      }
+    },
+    "state": {
+      "loading": "Loading attendance summary...",
+      "empty": "No attendance records within this range."
+    },
+    "stats": {
+      "totalDays": "Total Days",
+      "presentDays": "Present Days",
+      "lateDays": "Late Days",
+      "uniquePeople": "People Involved"
+    },
+    "table": {
+      "title": "Attendance Status",
+      "status": "Status",
+      "count": "Count"
+    },
+    "chart": {
+      "title": "Monthly Overview",
+      "subtitle": "Status distribution per month for the selected range.",
+      "empty": "No monthly data for this range.",
+      "weekLabel": "{period}",
+      "series": {
+        "present": "Present",
+        "late": "Late",
+        "leftEarly": "Left Early",
+        "off": "Off"
+      }
+    },
+    "statuses": {
+      "present": "Present",
+      "late": "Late",
+      "leftEarly": "Left Early",
+      "lateAndLeftEarly": "Late & Left Early",
+      "off": "Off"
+    },
+    "leaders": {
+      "lateTitle": "Most Late",
+      "lateSubtitle": "People with the largest accumulated late minutes.",
+      "presentTitle": "Most Present",
+      "presentSubtitle": "People with the highest number of present days.",
+      "member": "Member",
+      "days": "Days",
+      "minutes": "Minutes",
+      "events": "Events",
+      "empty": "No lateness recorded for this range.",
+      "presentEmpty": "No attendance data for this range.",
+      "unknown": "Unnamed"
+    }
+  },
+  "adminSchedule": {
+    "week": {
+      "Senin": "Monday",
+      "Selasa": "Tuesday",
+      "Rabu": "Wednesday",
+      "Kamis": "Thursday",
+      "Jumat": "Friday",
+      "Sabtu": "Saturday",
+      "Minggu": "Sunday"
+    },
+    "badge": {
+      "work": "Working Day",
+      "holiday": "Holiday / Off",
+      "noSchedule": "No schedule"
+    },
+    "header": {
+      "breadcrumb": "Dashboard › Schedule",
+      "title": "Schedule",
+      "hasErrors": "Some days still have inputs to fix.",
+      "subtitle": "Manage working hours per day and their tolerances."
+    },
+    "actions": {
+      "resetDefault": "Reset to Default",
+      "resetChanges": "Discard Changes",
+      "saving": "Saving...",
+      "save": "Save Schedule",
+      "customSchedule": "Custom Schedule",
+      "editOverride": "Edit Override",
+      "deleteOverride": "Delete Override",
+      "deleteLog": "Delete Log"
+    },
+    "state": {
+      "loadingConfig": "Loading schedule configuration…"
+    },
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "daysShort": {
+      "monday": "Mon",
+      "tuesday": "Tue",
+      "wednesday": "Wed",
+      "thursday": "Thu",
+      "friday": "Fri",
+      "saturday": "Sat",
+      "sunday": "Sun"
+    },
+    "presets": {
+      "workday": {
+        "label": "Normal Hours",
+        "description": "08:30-17:00, grace 10/5m",
+        "dataLabel": "Normal Working Hours",
+        "notes": ""
+      },
+      "halfday": {
+        "label": "Morning Shift",
+        "description": "08:30-13:00",
+        "dataLabel": "Morning Shift",
+        "notes": "Half-day morning shift."
+      },
+      "evening": {
+        "label": "Evening Shift",
+        "description": "13:00-21:00",
+        "dataLabel": "Evening Shift",
+        "notes": "Evening / closing shift."
+      },
+      "wfh": {
+        "label": "Flexible WFH",
+        "description": "09:00-17:00, grace 30m",
+        "dataLabel": "Flexible WFH",
+        "notes": "WFH with 30-minute lateness tolerance."
+      },
+      "off": {
+        "label": "Holiday / Off",
+        "description": "Disable schedule",
+        "dataLabel": "Holiday",
+        "notes": "No scheduled working hours."
+      }
+    },
+    "overrides": {
+      "title": "Schedule Overrides",
+      "description": "Add custom date ranges to override weekly schedules (e.g. joint leave, overtime, or sudden holidays).",
+      "content-title": "Add custom date ranges to override weekly schedules (e.g. joint leave, overtime, or sudden holidays).",
+      "add": "Add Override",
+      "defaultLabel": "Custom Schedule",
+      "range": "{start} -> {end}",
+      "timeRange": "{start} - {end}",
+      "offSummary": "Off / Holiday",
+      "graceOff": "0 / 0",
+      "graceRange": "{in} / {out}",
+      "table": {
+        "range": "Date Range",
+        "label": "Label",
+        "status": "Status",
+        "time": "Hours",
+        "grace": "Grace (In/Out)",
+        "notes": "Notes",
+        "actions": "Actions"
+      },
+      "noNotes": "—",
+      "actions": {
+        "edit": "Edit",
+        "duplicate": "Duplicate",
+        "delete": "Delete",
+        "save": "Save Override"
+      },
+      "scope": {
+        "all": "Applies to everyone",
+        "individual": "Specific people"
+      },
+      "people": {
+        "loading": "Loading face registry..."
+      },
+      "empty": "No override dates yet.",
+      "saved": "Override saved.",
+      "deleted": "Override removed.",
+      "modal": {
+        "title": "Schedule Override",
+        "description": "Pick a date range and working hours to override weekly schedule.",
+        "loading": "Loading...",
+        "fields": {
+          "singleDay": "Single day",
+          "notes": "Notes",
+          "graceOut": "Grace Out (minutes)",
+          "active": "Schedule Mode",
+          "notesPlaceholder": "Optional",
+          "checkIn": "Check In",
+          "scope": "Scope",
+          "graceIn": "Grace In (minutes)",
+          "pickDate": "Pick a date",
+          "label": "Label",
+          "range": "Date Range",
+          "checkOut": "Check Out",
+          "personPlaceholder": "Search names...",
+          "personLabel": "Select Members"
+        },
+        "active": {
+          "off": "Holiday",
+          "on": "Working Day"
+        },
+        "actions": {
+          "saving": "Saving...",
+          "save": "Save Override",
+          "cancel": "Cancel"
+        },
+        "scope": {
+          "allLabel": "Applies to everyone",
+          "helpIndividual": "Choose members that receive this override.",
+          "individualLabel": "Specific people",
+          "badgeAll": "Applies to everyone",
+          "helpAll": "Override applies to all members."
+        },
+        "people": {
+          "placeholder": "Search names...",
+          "noPeople": "No face data available to pick.",
+          "noMatches": "No results for this search.",
+          "allSelected": "All members have been selected.",
+          "loading": "Loading face registry..."
+        }
+      },
+      "form": {
+        "active": "Active",
+        "singleDay": "Single Day",
+        "pickDate": "Pick date",
+        "range": "Date Range",
+        "label": "Label",
+        "scope": "Applies to",
+        "scopeHelpAll": "Override applies to every member.",
+        "scopeHelpIndividual": "Select specific members that should follow this custom schedule.",
+        "personLabel": "Select Members",
+        "personPlaceholder": "Search name...",
+        "noMatches": "No results for this search.",
+        "noPeople": "No face data available to select.",
+        "start": "Start Date",
+        "end": "End Date",
+        "checkIn": "Check In",
+        "checkOut": "Check Out",
+        "graceIn": "Grace In (minutes)",
+        "graceOut": "Grace Out (minutes)",
+        "notes": "Notes",
+        "activeLabel": "Holiday (Off) / Working Day (On)"
+      }
+    },
+    "logs": {
+      "deleted": "Log deleted.",
+      "deleteFailed": "Failed to delete log."
+    },
+    "sidebar": {
+      "daysTitle": "Days",
+      "noSchedule": "No schedule",
+      "errorCount": "{count} issues"
+    },
+    "detail": {
+      "subtitle": "Adjust today's working hours and policies."
+    },
+    "copy": {
+      "copyOther": "Copy to other days",
+      "copyWorkdays": "Apply to workdays",
+      "copyWeekend": "Apply to weekend",
+      "panelTitle": "Copy {day} to:",
+      "apply": "Apply",
+      "cancel": "Cancel"
+    },
+    "form": {
+      "label": "Schedule Label",
+      "notes": "Notes",
+      "checkIn": "Check In",
+      "checkOut": "Check Out",
+      "graceIn": "Grace In (minutes)",
+      "graceOut": "Grace Out (minutes)",
+      "labelPlaceholder": "Example: Normal Working Hours",
+      "notesPlaceholder": "Optional"
+    },
+    "defaults": {
+      "holidayLabel": "Holiday / Off",
+      "weekendLabel": "Weekend",
+      "workdayLabel": "Normal Working Hours",
+      "weekendNotes": "Weekend break"
+    },
+    "errors": {
+      "overrideStartRequired": "Start date is required.",
+      "overrideCheckInFormat": "Override check-in must use HH:MM.",
+      "overrideCheckOutFormat": "Override check-out must use HH:MM.",
+      "overrideCheckOrder": "Override check-out must be later than check-in.",
+      "overrideTargetsRequired": "Select at least one member for this override.",
+      "labelRequired": "Label is required.",
+      "checkInFormat": "Check-in must use HH:MM.",
+      "checkOutFormat": "Check-out must use HH:MM.",
+      "checkOutOrder": "Check-out must be later than check-in.",
+      "checkInInvalid": "Check-in is invalid.",
+      "checkOutInvalid": "Check-out is invalid.",
+      "graceInRange": "Grace in must be 0-240 minutes.",
+      "graceOutRange": "Grace out must be 0-240 minutes.",
+      "hasIssues": "Review the schedule inputs that still have issues."
+    },
+    "error": {
+      "load": "Failed to load schedule configuration.",
+      "loadConfig": "Failed to load schedule configuration.",
+      "save": "Failed to save schedule.",
+      "saveConfig": "Failed to save schedule.",
+      "fetchMembers": "Failed to load member data.",
+      "loadPeople": "Failed to load face registry."
+    },
+    "modals": {
+      "view": { "title": "View Override" },
+      "edit": { "title": "Edit Override" },
+      "deleteOverride": {
+        "title": "Delete Override?",
+        "body": "This action will delete the selected override. Continue?"
+      },
+      "deleteLog": {
+        "title": "Delete Log?",
+        "body": "This action will delete the log related to this schedule. Continue?"
+      }
+    },
+    "toast": {
+      "saved": "Schedule saved.",
+      "scheduleSaved": "Schedule saved.",
+      "overrideSaved": "Override saved.",
+      "overrideRemoved": "Override removed.",
+      "graceApplied": "Default grace applied to all days.",
+      "presetApplied": "Preset applied.",
+      "appliedToDays": "Applied to selected days.",
+      "copyTargetsMissing": "No target days selected.",
+      "copyApplied": "Applied to selected days."
+    },
+    "confirm": {
+      "removeOverride": "Delete this schedule override?"
+    },
+    "validation": {
+      "ovStart": "Override start date is required (YYYY-MM-DD).",
+      "ovEnd": "Override end date is invalid (YYYY-MM-DD).",
+      "checkIn": "Check-in time must be in HH:MM format.",
+      "checkOut": "Check-out time must be in HH:MM format.",
+      "order": "Check-out time must be later than check-in time."
+    },
+    "userSelect": {
+      "noSelection": "Please select at least one member",
+      "applied": "{count} members selected for this override"
+    },
+    "customFields": {
+      "saved": "Custom field saved",
+      "deleted": "Custom field deleted",
+      "validation": {
+        "labelRequired": "Field label is required"
+      }
+    }
+  },
+  "adminUsers": {
+    "breadcrumb": "Dashboard › Users",
+    "title": "User Management",
+    "nav": "User Management",
+    "subtitle": "Manage admin roles, API keys, and account deletion.",
+    "table": {
+      "title": "User List",
+      "username": "Username",
+      "role": "Role",
+      "actions": "Actions",
+      "loading": "Loading users...",
+      "noUsers": "No users found",
+      "empty": "No users yet",
+      "columns": {
+        "username": "Username",
+        "role": "Role",
+        "actions": "Actions"
+      }
+    },
+    "roles": {
+      "owner": "Owner",
+      "admin": "Admin",
+      "user": "User"
+    },
+    "badges": {
+      "you": "You"
+    },
+    "actions": {
+      "refresh": "Refresh",
+      "refreshing": "Loading...",
+      "viewJson": "View JSON",
+      "rotateKey": "Rotate API Key",
+      "setPassword": "Set Password",
+      "promote": "Promote",
+      "demote": "Demote",
+      "delete": "Delete",
+      "deleteAccount": "Delete Account",
+      "processing": "Processing...",
+      "changePassword": "Change Password",
+      "close": "Close"
+    },
+    "passwordModal": {
+      "title": "Set Password",
+      "description": "Enter a new password for {user}.",
+      "newPassword": "New Password",
+      "passwordPlaceholder": "Enter new password (min 6 characters)",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "error": {
+      "title": "An error occurred",
+      "fetch": "Failed to load user data.",
+      "generic": "An error occurred."
+    },
+    "state": {
+      "loading": "Loading user data..."
+    },
+    "confirm": {
+      "title": "Confirmation",
+      "promote": "Promote \"{user}\" to admin?",
+      "demote": "Remove admin role from \"{user}\"?",
+      "delete": "Delete user \"{user}\"?",
+      "rotateSelf": "Generate a new API key for your account? You will need to update the Authorization header after this.",
+      "rotateOther": "Generate a new API key for \"{user}\"? The user will need to use the new key after this."
+    },
+    "toast": {
+      "promoted": "{user} is now an admin.",
+      "demoted": "{user} has been demoted.",
+      "deleted": "{user} has been deleted.",
+      "passwordSet": "Password updated successfully.",
+      "passwordTooShort": "Password must be at least 6 characters long.",
+      "cannotDemotePromoter": "Cannot demote the admin who promoted you.",
+      "cannotDeletePromoter": "Cannot delete the user who promoted you.",
+      "noPermission": "You do not have permission to perform this action.",
+      "rotated": "API key has been rotated.",
+      "error": {
+        "generic": "An error occurred.",
+        "fetch": "Failed to load user data.",
+        "save": "Failed to save changes."
+      }
+    }
+  },
+  "adminFaceDb": {
+    "header": {
+      "breadcrumb": "Database",
+      "title": "Face Database Management",
+      "subtitle": "Manage registered embeddings, photos, and metadata."
+    },
+    "state": {
+      "loading": "Loading…",
+      "loginRequired": "Sign in required.",
+      "adminRequired": "Admin role required to view the register DB.",
+      "error": "Something went wrong."
+    },
+    "error": {
+      "fetch": "Failed to load register DB.",
+      "adminInactive": "Admin mode is not enabled.",
+      "labelEmpty": "Label is required.",
+      "zipFailed": "Failed to read ZIP {name}."
+    },
+    "info": {
+      "selectImage": "Choose an image or capture a photo.",
+      "noSelection": "No items selected."
+    },
+    "toast": {
+      "exportError": "Export failed: {error}",
+      "reordered": "Items reordered successfully"
+    },
+    "dragToReorder": "Drag to reorder",
+    "bulk": {
+      "title": "Bulk Upload",
+      "description": "Upload many photos at once",
+      "selectFiles": "Choose Files",
+      "hint": "Choose one or more image files",
+      "forceUpload": "Force upload (override duplicates)",
+      "uploading": "Uploading...",
+      "files": "Files ({count})",
+      "statusReady": "Ready to upload",
+      "labelEmpty": "Empty label, skipped",
+      "labelPlaceholder": "Label",
+      "duplicate": "Duplicate: {msg}",
+      "error": "Error: {msg}",
+      "success": "Success: {label}",
+      "completed": "Done. {summary}",
+      "summarySuccess": "Success: {count}",
+      "summaryDuplicate": "Duplicate: {count}",
+      "summaryError": "Failed: {count}",
+      "summarySkip": "Skipped: {count}",
+      "empty": "No files selected yet",
+      "totalFiles": "{count} files ready to upload",
+      "start": "Start Upload",
+      "cancel": "Close"
+    },
+    "subtitle": "Manage face database members ({total} members)",
+    "viewMode": {
+      "grid": "Grid",
+      "list": "List"
+    }
+  },
+  "funMeter": {
+    "camera": {
+      "title": "Camera",
+      "subtitle": "Fun Meter Streaming",
+      "faces": "Faces: {count}",
+      "help": "Press start to send frames to server."
+    },
+    "form": {
+      "interval": "Interval (ms)",
+      "model": "Model",
+      "changeViaSettings": "Change via Settings"
+    },
+    "model": {
+      "waiting": "Waiting for metadata...",
+      "notAvailable": "Waiting for server data..."
+    },
+    "actions": {
+      "startCamera": "Start Camera",
+      "stopCamera": "Stop Camera"
+    },
+    "summary": {
+      "title": "Summary",
+      "subtitle": "Labels & Latest Results",
+      "label": "label",
+      "labels": "labels",
+      "description": "Fun represents happiness probability (0–100%). Label list is taken directly from the model on the server.",
+      "faceLabel": "FACE #{n}",
+      "empty": "No results from camera yet.",
+      "nonEmpty": "Receiving results…"
+    },
+    "emotions": {
+      "happy": "Happy",
+      "sad": "Sad",
+      "surprised": "Surprised",
+      "angry": "Angry",
+      "fear": "Fear",
+      "disgust": "Disgust",
+      "neutral": "Neutral"
+    },
+    "canvas": {
+      "fun": "Fun"
+    },
+    "status": {
+      "wsConnected": "WS connected",
+      "wsDisconnected": "WS disconnected",
+      "cameraActive": "Camera active",
+      "cameraDenied": "Camera access denied",
+      "cameraStopped": "Camera stopped"
+    },
+    "toast": {
+      "wsConnected": "Connected to WebSocket server",
+      "wsDisconnected": "WebSocket connection lost",
+      "cameraError": "Failed to access camera",
+      "modelLoaded": "Model loaded: {model}"
+    }
+  },
+  "aside": {
+    "brand": {
+      "title": "Face Attendance"
+    },
+    "groups": {
+      "main": "Main Menu",
+      "admin": "Admin"
+    },
+    "sections": {
+      "navigation": "Navigation",
+      "administration": "Administration"
+    },
+    "actions": {
+      "expand": "Expand",
+      "collapse": "Collapse",
+      "openSettings": "Open Settings"
+    }
+  },
+  "avatar": {
+    "menu": {
+      "login": "Sign in",
+      "logout": "Sign out"
+    },
+    "logout": {
+      "title": "Confirm Sign Out",
+      "description": "Are you sure you want to sign out of your account?",
+      "confirm": "Yes, Sign Out",
+      "cancel": "Cancel"
+    }
+  },
+  "common": {
+    "you": "You",
+    "role": "Role",
+    "actions": "Actions",
+    "deleteAccount": "Delete Account",
+    "active": "Active",
+    "off": "Off",
+    "holiday": "Holiday",
+    "offHoliday": "Off / Holiday",
+    "onLabel": "Working Day",
+    "offLabel": "Holiday",
+    "close": "Close",
+    "cancel": "Cancel",
+    "clear": "Clear",
+    "delete": "Delete",
+    "save": "Save",
+    "reload": "Reload",
+    "import": "Import",
+    "idLabel": "ID:",
+    "separator": "•",
+    "confirmDelete": "Confirm Delete"
+  },
+  "header": {
+    "breadcrumb": {
+      "admin": "Admin",
+      "website": "Website"
+    },
+    "actions": {
+      "live": "Live",
+      "openNavigation": "Open navigation"
+    },
+    "title": {
+      "default": "Face Recognition"
+    }
+  },
+  "auth": {
+    "welcome": "Welcome back",
+    "subtitle": "Sign in to access your dashboard and fun meter.",
+    "footer": "By signing in, you agree to our Terms & Privacy Policy.",
+    "title": "Account",
+    "description": "Sign in or create a new account.",
+    "login": "Sign In",
+    "register": "Register",
+    "loading": "Processing...",
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "fields": {
+      "username": "Username",
+      "password": "Password"
+    },
+    "confirmPassword": "Confirm Password",
+    "error": {
+      "fillFields": "Please fill in username and password.",
+      "loginFailed": "Login failed.",
+      "registerShortPassword": "Password must be at least 6 characters.",
+      "registerMismatch": "Password confirmation does not match.",
+      "registerFailed": "Registration failed."
+    },
+    "toast": {
+      "loginSuccess": "Welcome, {username}!",
+      "registerSuccess": "Account created successfully. Please sign in.",
+      "logoutSuccess": "Successfully signed out."
+    }
+  },
+  "pagination": {
+    "showing": "Showing {start}-{end} of {total} {items}",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of",
+    "first": "First",
+    "last": "Last"
+  },
+  "attendance": {
+    "toast": {
+      "wsConnected": "Connected to server (WebSocket).",
+      "wsDisconnected": "WebSocket connection lost.",
+      "attendanceError": "Attendance error: {message}",
+      "success": "Attendance successful.",
+      "successWithLabel": "Attendance successful: {label}",
+      "blockedMessage": "{label}: {reason}{retry}",
+      "blockedReasonDefault": "Cannot attend (rules apply).",
+      "blockedRetry": " • Try again: {time}",
+      "blockedFallback": "Cannot attend (already attended today or still in cooldown).",
+      "blockedWithRetry": "{label}: Can attend again at {time} ({duration}).",
+      "blockedGeneric": "Cannot attend at this time. Please try again later.",
+      "cameraStarting": "Starting camera...",
+      "cameraStarted": "✅ Camera started successfully",
+      "cameraStopping": "Stopping camera...",
+      "cameraStopped": "✅ Camera stopped successfully",
+      "cameraError": "❌ Failed to access camera: {error}",
+      "refreshSuccess": "Attendance data refreshed successfully",
+      "fetchError": "Failed to load attendance data",
+      "attendanceSuccess": "Attendance recorded: {name}",
+      "attendanceMarked": "Attendance marked: {name}",
+      "logError": "Failed to load Attendance Log. Try again."
+    }
+  },
+  "settings": {
+    "breadcrumb": "Preferences",
+    "title": "Settings",
+    "subtitle": "Manage display preferences and streaming quality",
+    "language": {
+      "title": "Language",
+      "help": "Interface language setting",
+      "options": {
+        "id": "Bahasa Indonesia",
+        "en": "English"
+      }
+    },
+    "theme": {
+      "title": "Theme",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "attendance": {
+      "title": "Attendance Streaming",
+      "width": {
+        "label": "Send Width (px)",
+        "help": "Frame width sent to server. Smaller = faster."
+      },
+      "quality": {
+        "label": "JPEG Quality",
+        "help": "Image compression quality. Higher = clearer but heavier.",
+        "low": "Low (0.1)",
+        "high": "High (1.0)"
+      }
+    },
+    "funMeter": {
+      "title": "Fun Meter Streaming",
+      "width": {
+        "label": "Send Width (px)",
+        "help": "Frame width for emotion detection. Smaller = faster."
+      },
+      "quality": {
+        "label": "JPEG Quality",
+        "help": "Compression quality for emotion detection.",
+        "low": "Low (0.1)",
+        "high": "High (1.0)"
+      }
+    },
+    "baseInterval": {
+      "title": "Base Interval",
+      "label": "Interval (ms)",
+      "help": "Frame sending interval to server in milliseconds."
+    },
+    "actions": {
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "save": "Save",
+      "close": "Close",
+      "logout": "Sign out"
+    },
+    "toast": {
+      "saved": "Settings saved.",
+      "reset": "Settings reset to default."
+    }
+  },
+  "adminListMembers": {
+    "title": "Manage Members",
+    "actions": {
+      "export": "Export",
+      "bulkUpload": "Bulk Upload",
+      "deleteSelected": "Delete",
+      "refresh": "Refresh",
+      "addMember": "Add Member",
+      "edit": "Edit",
+      "replacePhoto": "Replace Photo",
+      "delete": "Delete"
+    },
+    "selectAll": "Select all",
+    "selected": "{count} item selected",
+    "bulk": {
+      "title": "Bulk Upload",
+      "description": "Upload many photos at once",
+      "selectFiles": "Choose Files",
+      "hint": "Choose one or more image files",
+      "forceUpload": "Force upload (override duplicates)",
+      "uploading": "Uploading...",
+      "files": "Files ({count})",
+      "statusReady": "Ready to upload",
+      "labelEmpty": "Empty label, skipped",
+      "labelPlaceholder": "Label",
+      "duplicate": "Duplicate: {msg}",
+      "error": "Error: {msg}",
+      "success": "Success: {label}",
+      "completed": "Done. {summary}",
+      "summarySuccess": "Success: {count}",
+      "summaryDuplicate": "Duplicate: {count}",
+      "summaryError": "Failed: {count}",
+      "summarySkip": "Skipped: {count}",
+      "empty": "No files selected yet",
+      "totalFiles": "{count} files ready to upload",
+      "start": "Start Upload",
+      "cancel": "Close"
+    },
+    "search": {
+      "placeholder": "Search label…"
+    },
+    "table": {
+      "label": "Name",
+      "photo": "Photo",
+      "timestamp": "Timestamp",
+      "actions": "Actions",
+      "empty": "No members registered yet"
+    },
+    "order": {
+      "newest": "Newest",
+      "oldest": "Oldest"
+    },
+    "perPage": {
+      "all": "All"
+    },
+    "pagination": {
+      "info": "Showing {start}-{end} of {total} members",
+      "infoAll": "Showing all {total} members",
+      "previous": "Previous",
+      "current": "Page {page} of {total}",
+      "next": "Next"
+    },
+    "grid": {
+      "edit": "Edit",
+      "replacePhoto": "Replace photo"
+    },
+    "edit": {
+      "empty": "Label cannot be empty",
+      "success": "Data updated successfully.",
+      "error": "Failed to save: {msg}",
+      "modalTitle": "Edit",
+      "modalSubtitle": "Edit member data",
+      "saving": "Saving...",
+      "photo": "Photo",
+      "currentPhoto": "Current photo",
+      "photoHint": "Choose a new photo to replace the current one",
+      "dragDrop": "Drag & drop photo here or click to select",
+      "chooseFile": "Choose File"
+    },
+    "replacePhoto": {
+      "title": "Replace Photo",
+      "subtitle": "For: {label}",
+      "currentPhoto": "Current photo",
+      "hint": "Drag & drop photo here or choose from device",
+      "dragDrop": "Drag & drop photo here or click to select",
+      "chooseFile": "Choose File",
+      "useCamera": "Use Camera",
+      "submit": "Replace Now",
+      "uploading": "Uploading...",
+      "success": "Photo successfully replaced for: {label}",
+      "error": "Failed to replace photo: {error}",
+      "noFile": "Please select a file first"
+    },
+    "confirm": {
+      "delete": {
+        "title": "Delete Member",
+        "desc": "Are you sure you want to delete {name}? This action cannot be undone.",
+        "confirm": "Delete",
+        "cancel": "Cancel"
+      },
+      "deleteMultiple": {
+        "title": "Delete Multiple Members",
+        "desc": "Are you sure you want to delete {count} selected members?",
+        "confirm": "Delete All",
+        "cancel": "Cancel"
+      }
+    },
+    "toast": {
+      "fileNotImage": "{name} is not an image, skipped",
+      "noBulkItems": "No files selected",
+      "fetchError": "Failed to load member data",
+      "deleteSuccess": "Member successfully deleted: {name}",
+      "deleteError": "Failed to delete member: {error}",
+      "deleteMultipleSuccess": "{count} members successfully deleted",
+      "deleteMultipleError": "Failed to delete members: {error}",
+      "noSelection": "No members selected",
+      "exportSuccess": "Export completed: {filename}",
+      "exportError": "Export failed: {error}",
+      "reordered": "Items reordered successfully"
+    },
+    "dragToReorder": "Drag to reorder",
+    "subtitle": "Manage member face database ({total} members)",
+    "viewMode": {
+      "grid": "Grid",
+      "list": "List"
+    }
+  }
+}
