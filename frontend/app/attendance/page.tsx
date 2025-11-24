@@ -728,7 +728,7 @@ export default function AttendancePage() {
         setIsRefreshing(false);
       }
     }
-  }, [order, perPage, t, logMeta]);
+  }, [order, perPage, t]);
 
   // Update refreshLog ref whenever refreshLog changes
   useEffect(() => {
@@ -740,10 +740,15 @@ export default function AttendancePage() {
     logMetaRef.current = { page: logMeta.page };
   }, [logMeta.page]);
 
-  // Load initial data and react to perPage/order changes
+  // Load initial data and react to perPage/order changes (reset to page 1 only for filter changes)
   useEffect(() => {
     void refreshLog(1);
-  }, [refreshLog, perPage, order]);
+  }, [perPage, order]);
+
+  // Load initial data on mount
+  useEffect(() => {
+    void refreshLog(1);
+  }, []);
 
   // Cleanup on unmount and load camera state
   useEffect(() => {

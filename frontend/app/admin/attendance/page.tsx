@@ -157,7 +157,7 @@ export default function AdminAttendancePage() {
     } as AttendanceLog & { schedule_source?: string; schedule_detail?: ScheduleDetail; schedule_override?: unknown };
   };
 
-  const fetchLogs = useCallback(async (page = 1, filterParams = filters) => {
+  const fetchLogs = useCallback(async (page: number, filterParams: AttendanceFilters) => {
     try {
       setLoading(true);
       const params: Record<string, string | number> = {
@@ -177,7 +177,8 @@ export default function AdminAttendancePage() {
       const meta = data?.meta || {};
       setLogs(mapped as AttendanceLog[]);
       const tp = Number(meta.total_pages || 1);
-      setCurrentPage(Number(meta.page || page));
+      const actualPage = Number(meta.page || page);
+      setCurrentPage(actualPage);
       setTotalPages(tp);
       setTotalRecords(Number(meta.total || mapped.length));
       
@@ -186,12 +187,20 @@ export default function AdminAttendancePage() {
     } finally {
       setLoading(false);
     }
-  }, [filters, t]);
+  }, [t]);
 
-  // Load data on mount and when filters change
+  // Load data on mount and when filters change (reset to page 1 only for filter changes)
   useEffect(() => {
+    setCurrentPage(1);
     fetchLogs(1, filters);
-  }, [filters, fetchLogs]);
+  }, [filters.search, filters.status, filters.per_page, filters.order, filters.date_from, filters.date_to, fetchLogs]);
+
+  // Load data when page changes (without resetting page)
+  useEffect(() => {
+    if (currentPage > 1) {
+      fetchLogs(currentPage, filters);
+    }
+  }, [currentPage]);
 
   // Filter clearing function (available for future filter reset feature)
   const _clearFilters = () => {
@@ -386,7 +395,7 @@ export default function AdminAttendancePage() {
 
   const handlePageChange = (page: number) => {
     const clamped = Math.min(Math.max(1, page), totalPages);
-    fetchLogs(clamped, filters);
+    setCurrentPage(clamped);
   };
 
   return (
